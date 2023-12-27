@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(45deg, rgb(233, 233, 109),rgb(127, 69, 127), rgb(94, 7, 94));
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align:start;
+}
+p{
+    text-align: justify;
+}
+.rato{
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+

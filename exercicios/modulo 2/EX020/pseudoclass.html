@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com divs</title>
+</head>
+    <style>
+        div{
+            background-color: #4C4641;
+            width: 200px;
+            height: 200px;
+            padding: 5px;
+            display: inline-block;
+        }
+        div > p{
+            color: white;
+        }
+
+        div:hover{
+            background-color: #E58939;
+        }
+        div:hover > p{
+            color: #4C4641;
+        }
+        p{
+            text-align: justify;
+        }
+
+        a{
+            color:red;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+        
+        a:visited{
+            color: blue;
+        }
+        a:active{
+            color:yellow;
+        }
+    </style>
+<body>
+    <div><p>01 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi aliquid ad sed voluptatem harum nam possimus dolorem in ratione, unde eius sunt nemo eaque quas saepe molestiae maiores asperiores aperiam.</p></div>
+    <div><p>02 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum error ex culpa, aliquam inventore, eos ullam aut labore blanditiis praesentium laboriosam ab obcaecati totam velit soluta sunt possimus dolorem quis!</p></div>
+    <br>
+    <a href="https://www.youtube.com/" target="_blank" rel="external"> Linksada nele</a>
+</body>
+</html>

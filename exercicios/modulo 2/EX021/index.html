@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tipos de caixa</title>
+
+    <style>
+        h1{
+            display: inline;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(237, 188, 255, 0.507);
+            font: normal normal 16px Arial; 
+            padding: 4px;
+            text-align: center;
+            margin: 10px auto 2px 0px;
+            border: 2px solid black;
+        }
+        #linksao{
+            border: 2px solid purple;
+            padding: 5px;
+            border-radius: 4px;
+            outline: 1px dashed black;
+        }
+        p{
+            margin: 2px;
+            width: 800px;
+            
+        }
+        a > h1{
+            text-decoration: none;
+            color: black;
+            font-style: normal;
+        }
+        #principal{
+            background-color: blueviolet;
+        }
+        #principal > a > img{
+            margin: 3px;
+        }
+        hr{
+            margin: 20px 0px 20px 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id = "principal">
+        <a href="index.html"><img src="favicon.ico" alt="logo"></a>
+    </div>
+    <hr>
+    <a href="prox1.html" target="_self" rel="next"><h1>Saiba mais</h1></a>
+    <h1>Quem Somos</h1>
+    <h1>Videosada</h1>
+    <p>Parágrafos são exemplos de caixa BOX LEVEL, porém os links: <a href="https://www.youtube.com/watch?v=fbP6RPdg7qU" target="_blank" rel="external" id = "linksao"> <img src="emoji.png" alt="porra"></a> são caixas INLINE LEVEL</p>
+</body>
+</html>
