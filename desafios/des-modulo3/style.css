@@ -10,7 +10,7 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+html, body{
     height: 100vh;
     margin:0px;
     background-image: url(imagens/papel-de-parede-listrado-cinza-e-branco-tom-neutro.jpg);
@@ -49,14 +49,14 @@ main{
     max-width: 1200px;
     min-width: 320px;
     margin: 10px auto;
-    padding: 10px;
+    padding: 0px 10px;
     font-size: 2.5vw;
     border: 2px solid rgb(132, 132, 132);
     border-radius: 10px;
 }
 section {
     position: relative;
-    padding-top: 1vh;
+    padding-top: 10px;
     padding-bottom: 2vh;
     line-height: 2em;
 }
@@ -65,7 +65,6 @@ section {
 }
 
 #image-1{
-
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -123,6 +122,3 @@ footer > p{
     transform: translate(-50%, 50%);
 }
 
-p{
-    margin-top: 20px;
-}
