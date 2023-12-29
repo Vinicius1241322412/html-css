@@ -54,8 +54,8 @@ main{
 }
 section {
     position: relative;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     line-height: 2em;
 }
 #normal{
