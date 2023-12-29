@@ -50,7 +50,7 @@ main{
     min-width: 320px;
     margin: 10px auto;
     padding: 0px 10px;
-    font-size: 3vh;
+    font-size: 2.5vw;
     border: 2px solid rgb(132, 132, 132);
     border-radius: 10px;
 }
@@ -80,7 +80,7 @@ section {
 #image-1 > p{
     color: white;
     border-radius: 10px;
-    max-width: 30vw;
+    width: 30vw;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.508);
 }
@@ -99,7 +99,7 @@ section {
 #image-2 > p{
     color: white;
     border-radius: 10px;
-    max-width: 30vw;
+    width: 30vw;
     padding: 15px;
     background-color: rgba(0, 0, 0, 0.508);
 }
