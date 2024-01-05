@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #inome{
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+        }
+        ::placeholder{
+            color: rgba(255, 255, 255, 0.381);
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <form method="post" autocomplete="off">
+            <h1>Formulário Cabuuuu</h1>
+            <p>
+                <label for="inome">Nome:</label> 
+                <input type="text" name="nome" id="inome" required maxlength="20" placeholder="Nome de Usuário">
+            </p>
+            <p>
+                <label for="iidade">Idade:</label> 
+                <input type="number" name="idade" id="iidade" required size="50"></p>
+            <p>
+                <label for="isenha"> Senha: </label> 
+                <input type="password" name="senha" id="isenha" required maxlength="4" autocomplete="new-password">
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+        
+        
+    </main>
+</body>
+</html>

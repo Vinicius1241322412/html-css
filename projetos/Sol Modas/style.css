@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Titulo';
+    src: url(fonts/Pacifico-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Corpo';
+    src: url(fonts/DMSerifDisplay-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Padrao';
+    src: url(fonts/UbuntuMono-Regular.ttf) format(truetype);
+}
+:root{
+    --font1: 'Titulo';
+    --cor1: #FFF4E5;
+    --cor2: #F5D6A1;
+    --cor3: #99794D;
+    --cor4: #66481F;
+    --cor5: #4A2E07;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Padrao';
+}
+header{
+    background-color: var(--cor1);
+}
+header > h1 {
+    position: absolute;
+    font-family: 'Titulo';
+}
+header > nav{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+header a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: var(--cor3);
+    padding: 20px;
+}
+header a:hover{
+    border-radius: 10px;
+    background-color: var(--cor2);
+    transition: 1.5s;
+}
+main > section a{
+    background-color: var(--cor4);
+    text-decoration: none;
+    color: var(--cor1);
+    padding: 20px;
+    border-radius: 20px;
+}
+section a:hover{
+    background-color: var(--cor3);
+    transition: 0.4s;
+}
+
+/* SEÇÃO 1 ==============================================================================================*/
+#sec1{
+    position: relative;
+    height: 40vw;
+    background-image: linear-gradient(to right, #4A2E07,rgba(255, 255, 255, 0)) ,url(images/loja-mae.png);
+    background-size: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#sec1 div{
+    position: absolute;
+    left: 20%;
+    bottom: 40%;
+    background-color: var(--cor1);
+    padding: 20px;
+    border-radius: 20px;
+}
+#sec1 a{
+    position: relative;
+    margin-top: 4vh;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#sec1 h2{
+    font-family: 'Corpo';
+    font-size: 10vh;
+}
+#sec1 p{
+    text-indent: 40px;
+    font-family: 'Corpo';
+    font-weight: normal;
+    font-size: 2vh;
+}
+/* SEÇÃO 2 ==============================================================================================*/
+#sec2{
+    position: relative;
+    width: 100vw;
+}
+#sec2 h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 5vh;
+}
+#sec2 > div > div{
+    position: relative;
+    display: inline-block;
+    height: 25%;
+    width: 25%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+#sec2 > div{
+    position: relative;
+    width: 50vw;
+    text-align: center;
+    margin:auto
+}
+#sec2 a{
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    width: 180px;
+}
+
+.vendidos{
+    position: relative;
+    margin: 10px auto;
+    max-width: 250px;
+    min-width: 150px;
+    max-height: 450px;
+    background-color: var(--cor2);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.vendidos > img{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.vendidos > p{
+    text-align: center;
+    color: var(--cor4);
+    padding: 5px;
+    font-size: 2vh;
+}
+
+.vendidos:hover{
+    border: 0.5px solid var(--cor3);
+    transform: translate(-2px,-2px);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.429);
+    transition: 0.3s;
+}
+/*ASIDE ==============================================================================================*/
+aside{
+    height: 40vw;
+    position: relative;
+    background-image: linear-gradient(to right, var(--cor3) 10%, rgba(255, 255, 255, 0)), url(images/loja-foto.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    background-attachment: fixed;
+    margin: 20px auto;
+}
+aside > div{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--cor1);
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+}
+aside h2{
+    font-size: 2vw;
+}
+h2{
+    font-family: 'Corpo';
+}
+/* FOOTER ==============================================================================================*/
+footer{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+footer h2{
+    text-align: center;
+    margin: 10px auto;
+}
+footer section{
+    text-align: left;
+    list-style-position: inside;
+    margin: 0px 40px;
+    display: inline-block;
+}
