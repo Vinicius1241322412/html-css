@@ -40,24 +40,27 @@
 <body>
     <main>
         <form action="">
-            <p>
-                <label for="inome">Nome: </label>
-                <input type="text" name="nome" id="inome">
-            </p>
-            <p>
-                <label for="imedia">Média: </label>
-                <input type="number" name="media" id="imedia" min="0" max="100" step="0.01">
-            </p>
-            <p>
-                <label for="idata">Data de emissão: </label>
-                <input type="date" name="data" id="idata" >
-            </p>
-            <p>
-                <label for="itempo">Tempo de prova: </label>
-                <input type="time" name="tempo" id="itempo">
-            </p>
-            <input type="submit" value="Enviar" id="buttom">
-            <input type="reset" value="Limpar" id="buttom">
+            <fieldset>
+                <legend>Dados a serem roubados</legend>
+                <p>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="inome">
+                </p>
+                <p>
+                    <label for="imedia">Média: </label>
+                    <input type="number" name="media" id="imedia" min="0" max="100" step="0.01" value="50">
+                </p>
+                <p>
+                    <label for="idata">Data de emissão: </label>
+                    <input type="date" name="data" id="idata" >
+                </p>
+                <p>
+                    <label for="itempo">Tempo de prova: </label>
+                    <abbr title="Digite o tempo de Prova"><input type="time" name="tempo" id="itempo"></abbr>
+                </p>
+                <input type="submit" value="Enviar" id="buttom">
+                <input type="reset" value="Limpar" id="buttom">
+            </fieldset> 
         </form>
     </main>
 </body>
