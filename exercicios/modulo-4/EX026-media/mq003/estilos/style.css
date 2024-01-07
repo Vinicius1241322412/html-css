@@ -1,0 +1,33 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    height: 100vh;
+}
+body{
+    background-image: url(../imagens/back-phone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+main{
+    background-color: white;
+    width: 90vw;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+}
+img{
+    margin: auto;
+}
+
+#tel{display: block;}
+#tab{display: none;}
+#desk{display: none;}
+#large{display: none;}
+#imp{display: none;}
