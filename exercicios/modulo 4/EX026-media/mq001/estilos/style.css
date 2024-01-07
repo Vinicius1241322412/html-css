@@ -1,0 +1,28 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 5px 10px;
+    background-color: rgb(171, 170, 170);
+}
+header h1{
+    text-align: center;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+main{
+    margin: 20px auto;
+    max-width: 700px;
+}
+main article{
+    padding: 20px;
+    text-align: justify;
+}
