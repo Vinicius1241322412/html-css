@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="outrem.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Media Queries</title>
 </head>
-<body>
+<body onresize="mudou()">
     <header>
         <h1>SITEZADA NELES</h1>
         <span id="menu" class="material-icons" onclick="clickmenu()">menu</span>
         <menu id="itens">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" id="cima">Home</a></li>
                 <li><a href="">Notícias</a></li>
-                <li><a href="">Fale Conosco</a></li>
+                <li><a href="" id="baixo">Fale Conosco</a></li>
             </ul>
         </menu>
     </header>
@@ -28,11 +29,18 @@
         </article>
     </main>
     <script>
-        function clickmenu(){
-            if(itens.style.display == 'inline-block'){
-                itens.style.display = 'none'
+        function mudou(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
             } else{
-                itens.style.display = 'inline-block'
+                itens.style.display = 'none'
+            }
+        }
+        function clickmenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none';
+            } else{
+                itens.style.display = 'block'
             }
         }
     </script>

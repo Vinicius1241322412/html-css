@@ -1,0 +1,36 @@
+
+@media screen and (min-width: 768px){
+    #menu{
+        display: none;
+    }
+    header{
+        padding: 10px 10px 0px 10px;
+    }
+    menu{
+        position: relative;
+        text-align: center;
+        margin: 0px;
+    }
+    #cima{
+        border-radius: 10px;
+        border: 0px solid white;
+    }
+    #baixo{
+        border-radius: 10px;
+        border: 0px solid white;
+        width: 120px;
+    }
+    li{
+        display: inline-block;
+    }
+    li a {
+        display: inline-block;
+        margin: 20px 5px 5px 5px;
+        width: 90px;
+        border-radius: 10px;
+        border: 0px solid black;
+    }
+    main{
+        max-width: 768px;
+    }
+}
