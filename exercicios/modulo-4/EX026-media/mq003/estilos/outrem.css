@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
     body{
         background-image: url(../imagens/back-tablet.jpg);
     }
@@ -33,6 +33,14 @@
 @media print{
     body{
         background-image: url(../imagens/back-print.jpg);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    main::after{
+        content: 'Arquivo imprimido em 07 de Janeiro, 2024';
     }
     #tel{display: none;}
     #tab{display: none;}
